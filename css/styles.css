@@ -1,0 +1,46 @@
+body {
+  background-color: #F1F5EF;
+}
+.card {
+  background-color: pink;
+  border-radius: 20px;
+  padding: 20px;
+}
+.quote-marks {
+  font-size: 40px;
+  color: grey;
+}
+h4#author,
+#category,
+.actual-quote{
+  display: inline;
+}
+
+.quote-container{
+  margin: auto;
+  width: 80%;
+  text-align:center;
+  padding-top:40px;
+  padding-bottom: 40px;
+}
+ .button{
+  margin: auto;
+   border-radius:10px;
+   border: none
+}
+.button:hover{
+  cursor:pointer;
+}
+.button.icon{
+  font-size: 30px;
+  text-align: left;
+  background:none;
+}
+.button#newquote {
+  font-size:20px;
+  float: right;
+  padding: 10px;
+    text-align: right;
+}
+
+
